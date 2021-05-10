@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Search on Rails',
+  tagline: 'search doesn\'t have to be so hard',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -11,12 +11,17 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Search on Rails',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
+        {
+          href: 'https://searchonrails.com',
+          label: 'Home',
+          position: 'left',
+        },
         {
           type: 'doc',
           docId: 'intro',
@@ -24,7 +29,7 @@ module.exports = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/yagudaev/search_on_rails_docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -73,7 +78,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Search on Rails.`,
     },
   },
   presets: [
